@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <center>
+      <b><h1>CALCULATOR</h1></b>
+      <table border="10" width="500px" height="500px">
+        <tr>
+          <td colspan="4" bgcolor="white" height="64px">
+            <input type="text" id="result" />
+          </td>
+        </tr>
+        <tr align="center">
+          <td>
+            <input type="button" onclick="allclear()" value="AC" class="bu" />
+          </td>
+          <td><input type="button" onclick="clr();" value="C" class="bu" /></td>
+          <td>
+            <input type="button" onclick="con('%')" value="%" class="bu" />
+          </td>
+          <td>
+            <input type="button" onclick="con('+')" value="+" class="bu" />
+          </td>
+        </tr>
+        <tr align="center">
+          <td width="100px">
+            <input type="button" onclick="con('1')" value="1" class="bu" />
+          </td>
+          <td width="100px">
+            <input type="button" onclick="con('2')" value="2" class="bu" />
+          </td>
+          <td width="100px">
+            <input type="button" onclick="con('3')" value="3" class="bu" />
+          </td>
+          <td width="100px">
+            <input type="button" onclick="con('/')" value="/" class="bu" />
+          </td>
+        </tr>
+        <tr align="center">
+          <td>
+            <input type="button" onclick="con('4')" value="4" class="bu" />
+          </td>
+          <td>
+            <input type="button" onclick="con('5')" value="5" class="bu" />
+          </td>
+          <td>
+            <input type="button" onclick="con('6')" value="6" class="bu" />
+          </td>
+          <td>
+            <input type="button" onclick="con('*')" value="*" class="bu" />
+          </td>
+        </tr>
+        <tr align="center">
+          <td>
+            <input type="button" onclick="con('7')" value="7" class="bu" />
+          </td>
+          <td>
+            <input type="button" onclick="con('8')" value="8" class="bu" />
+          </td>
+          <td>
+            <input type="button" onclick="con('9')" value="9" class="bu" />
+          </td>
+          <td>
+            <input type="button" onclick="con('-')" value="-" class="bu" />
+          </td>
+        </tr>
+        <tr align="center">
+          <td>
+            <input type="button" onclick="con('0')" value="0" class="bu" />
+          </td>
+          <td>
+            <input type="button" onclick="con('.')" value="." class="bu" />
+          </td>
+          <td colspan="2">
+            <input type="button" onclick="res()" class="bu" value="=" />
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
