@@ -1,0 +1,24 @@
+body {
+  font-weight: 0;
+  background-color: cadetblue;
+  color: white;
+}
+
+table {
+  color: white;
+  background-color: darkslateblue;
+}
+#result {
+  background-color: lightyellow;
+  height: 64px;
+  width: 490px;
+  font-size: 54px;
+  color: darkseagreen;
+}
+.bu {
+  width: 100%;
+  height: 100%;
+  background-color: darkslateblue;
+  font-size: xx-large;
+  color: white;
+}
